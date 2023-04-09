@@ -3,11 +3,11 @@
   --black: #000;
   --font-color-base: #666;
   --font-color-dark: #212529;
-  --font-color-light: #b0aebe
-  --font-color-link: #57A6FF
+  --font-color-light: #b0aebe;
+  --font-color-link: #57A6FF;
   --footer: #5c568b;
   --footer-base: #2e2b45;
-  --contrast: var(--font-color-light);
+  --contrast: rgba(246, 248, 249, 0.8) 
   --success: #64ecf5;
   --danger: #ff8b8d;
   --grad-1: #a1ecff;
@@ -22,7 +22,7 @@
   --size-30: 1.875rem;
   --size-40: 2.5rem;
   --size-50: 3.125rem;
-  --size-75: 4.6875rem
+  --size-75: 4.6875rem;
   --size-100: 6.25rem;
   --size-150: 9.375rem;
 
