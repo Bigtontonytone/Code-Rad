@@ -7,7 +7,7 @@
   --font-color-link: #57A6FF;
   --footer: #5c568b;
   --footer-base: #2e2b45;
-  --contrast: rgba(246, 248, 249, 0.8) 
+  --contrast: rgba(246, 248, 249, 0.8) ;
   --success: #64ecf5;
   --danger: #ff8b8d;
   --grad-1: #a1ecff;
@@ -111,4 +111,8 @@ img {
 
 @media(min-width: 1200px) {
   .container {max-width: 1140px}
+}
+
+@media(min-width: 768px) {
+  .pricing-table {max-width: 720px}
 }
