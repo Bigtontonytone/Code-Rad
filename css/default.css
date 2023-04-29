@@ -28,6 +28,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans"; sans-seriff;
   font-weight: 400;
@@ -105,7 +109,7 @@ img {
 }
 
 @media(min-width: 768px) {
-  .pricing-table, .testimonial-grid. .footer-bottom-wrapper {max-width: 720px}
+  .pricing-table, .testimonial-grid, .footer-bottom-wrapper {max-width: 720px}
 }
 
 @media (min-width: 992px) {
@@ -113,5 +117,5 @@ img {
 }
 
 @media (min-width: 1200px) {
-  .container {max-width: 1140px}
+  .container .footer-bottom {max-width: 1140px}
 }
